@@ -88,7 +88,8 @@ fraud-detection/
 │── gr_model.joblib                   # Trained ML model  
 │── scaler.joblib                     # Feature scaler  
 │── requirements.txt                  # Dependencies  
-│── README.md                         # Documentation  
+│── README.md                         # Documentation
+│── Capstone Project- Fraud detection Dashboard.pbix # PowerBI Dashboard
 ```
 
 ---
@@ -150,6 +151,3 @@ streamlit run Fraud_detector.py
 
 ---
 
-## 🙋‍♂️ Author
-**Kaushal Jambhle**  
-AI/ML Engineer 
