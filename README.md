@@ -1,5 +1,8 @@
 # 🚀 Fraud Detection ML Project
 
+## Live Application 📺
+https://fraud-detection-ml-fb6dcrfsczr7zm8vyfmg7w.streamlit.app
+
 ## 📌 Overview
 This project focuses on detecting fraudulent financial transactions using Machine Learning techniques.
 
