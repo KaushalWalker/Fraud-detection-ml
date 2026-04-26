@@ -1,9 +1,13 @@
 # 🕵️ Fraud Detection ML Project
 
 ## Live Application 📺
+
 https://fraud-detection-ml-fb6dcrfsczr7zm8vyfmg7w.streamlit.app
 
+---
+
 ## 📌 Overview
+
 This project focuses on detecting fraudulent financial transactions using Machine Learning techniques.
 
 The system analyzes transaction patterns, identifies anomalies, and predicts whether a transaction is fraudulent. The model is deployed using Streamlit for real-time predictions.
@@ -11,146 +15,152 @@ The system analyzes transaction patterns, identifies anomalies, and predicts whe
 ---
 
 ## 🎯 Problem Statement
-Fraudulent transactions are rare but cause significant financial loss. Traditional models fail due to high class imbalance, where fraud cases are very few compared to normal transactions.
 
-The goal of this project is to build a robust model that can accurately detect fraud while minimizing false negatives.
+Fraudulent transactions are rare but cause significant financial loss. Traditional models struggle due to extreme class imbalance.
+
+The goal is to build a robust model that detects fraud effectively while minimizing false negatives.
 
 ---
 
 ## 🎯 Objectives
-- Analyze transaction data to understand fraud patterns  
-- Perform detailed Exploratory Data Analysis (EDA)  
-- Handle imbalanced dataset effectively  
-- Build and evaluate Machine Learning models  
-- Deploy the model using Streamlit  
+
+* Analyze transaction data
+* Perform Exploratory Data Analysis (EDA)
+* Handle imbalanced dataset
+* Build ML model
+* Deploy using Streamlit
 
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
-- Checked dataset structure, data types, and missing values  
-- Performed statistical analysis on transaction features  
-- Identified severe class imbalance  
-- Visualized fraud vs non-fraud distribution  
-- Used correlation heatmap to understand feature relationships  
+
+* Checked data types and missing values
+* Identified class imbalance
+* Visualized fraud vs non-fraud distribution
+* Correlation analysis
 
 ---
 
 ## ⚙️ Data Preprocessing
-- Feature selection and cleaning  
-- Handling categorical variables  
-- Feature scaling using StandardScaler  
-- Train-test split with stratification to preserve class distribution  
+
+* Feature selection
+* Data cleaning
+* Feature scaling (StandardScaler)
+* Train-test split with stratification
 
 ---
 
 ## 🤖 Model Building
-**Algorithm Used:** Gradient Boosting Classifier  
 
-**Reason:**
-- Handles complex patterns  
-- Performs well on structured data  
-- Sequential learning improves performance  
+**Algorithm:** Gradient Boosting Classifier
+
+**Why:**
+
+* Handles complex patterns
+* Works well on structured data
 
 ---
 
 ## 📈 Model Evaluation
-**Focus Metric:** Recall (very important for fraud detection)  
+
+**Primary Metric:** Recall
 
 **Other Metrics:**
-- Precision  
-- F1-score  
 
-👉 Priority was given to reducing false negatives (missing fraud cases)
+* Precision
+* F1-score
+
+Focus was on reducing false negatives.
 
 ---
 
 ## 🚀 Deployment
-- Built an interactive web app using Streamlit  
-- Users can input transaction details  
-- Model predicts:  
-  - Fraud / Non-Fraud  
-  - Probability score  
+
+* Built using Streamlit
+* User inputs transaction details
+* Model predicts:
+
+  * Fraud / Not Fraud
+  * Probability score
+
+---
+
+## 📜 Logging System
+
+* Logs predictions using Python logging module
+* Captures:
+
+  * Input data
+  * Prediction result
+  * Probability score
+* Helps in debugging and monitoring
 
 ---
 
 ## 🛠️ Tech Stack
-- Python  
-- Pandas, NumPy  
-- Scikit-learn  
-- Streamlit  
-- Joblib  
-- Matplotlib / Seaborn (for EDA)  
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Streamlit
+* Joblib
 
 ---
 
 ## 📂 Project Structure
+
 ```
 fraud-detection/
-│── Capstone Project-Fraud Detection   # Jupyter code  
-│── Fraud_detector.py                 # Streamlit app  
-│── gr_model.joblib                   # Trained ML model  
-│── scaler.joblib                     # Feature scaler  
-│── requirements.txt                  # Dependencies  
-│── README.md                         # Documentation
-│── Capstone Project- Fraud detection Dashboard.pbix # PowerBI Dashboard
+│── Fraud_detector.py
+│── gr_model.joblib
+│── scaler.joblib
+│── requirements.txt
+│── README.md
 ```
 
 ---
 
-## ⚙️ How to Run the Project
+## ⚙️ How to Run
 
-### Clone the repository:
 ```bash
 git clone https://github.com/KaushalWalker/Fraud-detection-ml.git
-```
-
-### Navigate to project folder:
-```bash
 cd fraud-detection
-```
-
-### Install dependencies:
-```bash
 pip install -r requirements.txt
-```
-
-### Run the app:
-```bash
 streamlit run Fraud_detector.py
 ```
 
 ---
 
 ## 📁 Dataset
-- Dataset contains transaction-level financial data  
-- Highly imbalanced (fraud cases are very rare)  
-- Not uploaded due to size limitations  
+
+* Transaction-level financial data
+* Highly imbalanced
+* Not uploaded due to size
 
 ---
 
 ## 💡 Key Learnings
-- Handling imbalanced datasets in real-world problems  
-- Importance of recall in critical applications  
-- Feature scaling and preprocessing techniques  
-- End-to-end ML pipeline development  
-- Model deployment using Streamlit  
+
+* Handling imbalanced datasets
+* Importance of recall
+* ML pipeline development
+* Streamlit deployment
 
 ---
 
 ## 📈 Future Improvements
-- Try advanced models (XGBoost, LightGBM)  
-- Deploy on cloud (AWS / Render)  
-- Improve UI/UX of dashboard  
-- Real-time fraud detection pipeline  
+
+* Add dashboard visualization
+* Use advanced models (XGBoost, LightGBM)
+* Cloud deployment (AWS)
+* Real-time pipeline
 
 ---
 
 ## 💼 Business Impact
-- 💰 Reduces Financial Loss: Early fraud detection prevents monetary damage  
-- ⚡ Real-Time Decision Making: Instant predictions help in blocking suspicious transactions  
-- 🛡️ Improves Security Systems: Strengthens fraud monitoring frameworks  
-- 📉 Minimizes Risk Exposure: Focus on recall ensures fewer fraud cases are missed  
-- 📊 Data-Driven Insights: Helps organizations understand fraud patterns and take preventive actions  
 
----
-
+* 💰 Reduces financial loss
+* ⚡ Enables real-time decisions
+* 🛡️ Improves fraud detection systems
+* 📉 Minimizes risk exposure
+* 📊 Provides data insights
