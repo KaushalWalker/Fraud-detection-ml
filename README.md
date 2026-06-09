@@ -2,7 +2,7 @@
 
 ## Live Application 📺
 
-https://fraud-detection-ml-fb6dcrfsczr7zm8vyfmg7w.streamlit.app
+h[ttps://fraud-detection-ml-fb6dcrfsczr7zm8vyfmg7w.streamlit.app](https://fraud-detection-ml-ubvjbgofb4xnvi3e5hicbc.streamlit.app/)
 
 ---
 
