@@ -1,0 +1,29 @@
+# Virtual environment
+mlops_env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlflow/
+mlruns/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Logs
+logs/
+
+# Model artifacts
+*.joblib
+*.pkl
+
+# Large datasets
+*.xlsx
+*.csv
